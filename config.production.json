@@ -1,5 +1,5 @@
 {
-  "url": "https://your-ghost-url.onrender.com",
+  "url": "https://ghost-cms-6ia0.onrender.com",
   "server": {
     "port": 10000,
     "host": "0.0.0.0"
