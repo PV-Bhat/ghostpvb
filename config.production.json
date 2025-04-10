@@ -11,8 +11,15 @@
     }
   },
   "mail": {
-    "transport": "Direct"
-  },
+  "transport": "SMTP",
+  "options": {
+    "service": "Mailgun",
+    "auth": {
+      "user": "postmaster@pruthvibhat.com",
+      "pass": "${MAILGUN_SMTP_PASSWORD}"
+    }
+  }
+},
   "logging": {
     "transports": [
       "stdout"
